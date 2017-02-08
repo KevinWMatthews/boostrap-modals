@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Modals</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#spinnerModal">
+		Launch demo modal
+	</button>
+
+	<div class="modal fade" id="spinnerModal" tabindex="-1" role="dialog" aria-labelledby="spinnerModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title" id="demoModalTitle">Spinning!</h4>
+				</div>
+				<div class="modal-body">
+				      <i class="fa fa-spinner fa-spin fa-3x fa-fw">:)</i>
+				      <span>Please wait&hellip;</span>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+	<script src="jquery-3.1.1.min.js"></script>
+	<script src="bootstrap.min.js"></script>
+</body>
+</html>
